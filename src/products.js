@@ -8,7 +8,7 @@ const products = [
 		category: "men's clothing",
 		image: 'https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg',
 		rating: {
-			rate: 3.9,
+			rate: 4.0,
 			count: 120,
 		},
 	},
@@ -22,7 +22,7 @@ const products = [
 		image:
 			'https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg',
 		rating: {
-			rate: 4.1,
+			rate: 4.0,
 			count: 259,
 		},
 	},
@@ -35,7 +35,7 @@ const products = [
 		category: "men's clothing",
 		image: 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg',
 		rating: {
-			rate: 4.7,
+			rate: 5.0,
 			count: 500,
 		},
 	},
@@ -48,7 +48,7 @@ const products = [
 		category: "men's clothing",
 		image: 'https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg',
 		rating: {
-			rate: 2.1,
+			rate: 2.0,
 			count: 430,
 		},
 	},
@@ -62,7 +62,7 @@ const products = [
 		category: 'jewelery',
 		image: 'https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg',
 		rating: {
-			rate: 4.6,
+			rate: 4.5,
 			count: 400,
 		},
 	},
@@ -75,7 +75,7 @@ const products = [
 		category: 'jewelery',
 		image: 'https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg',
 		rating: {
-			rate: 3.9,
+			rate: 4.0,
 			count: 70,
 		},
 	},
@@ -88,7 +88,7 @@ const products = [
 		category: 'jewelery',
 		image: 'https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg',
 		rating: {
-			rate: 3,
+			rate: 3.0,
 			count: 400,
 		},
 	},
@@ -101,7 +101,7 @@ const products = [
 		category: 'jewelery',
 		image: 'https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg',
 		rating: {
-			rate: 1.9,
+			rate: 2.0,
 			count: 100,
 		},
 	},
@@ -114,7 +114,7 @@ const products = [
 		category: 'electronics',
 		image: 'https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg',
 		rating: {
-			rate: 3.3,
+			rate: 3.5,
 			count: 203,
 		},
 	},
@@ -127,7 +127,7 @@ const products = [
 		category: 'electronics',
 		image: 'https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg',
 		rating: {
-			rate: 2.9,
+			rate: 3.0,
 			count: 470,
 		},
 	},
@@ -141,7 +141,7 @@ const products = [
 		category: 'electronics',
 		image: 'https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg',
 		rating: {
-			rate: 4.8,
+			rate: 5.0,
 			count: 319,
 		},
 	},
@@ -155,7 +155,7 @@ const products = [
 		category: 'electronics',
 		image: 'https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg',
 		rating: {
-			rate: 4.8,
+			rate: 5.0,
 			count: 400,
 		},
 	},
@@ -168,7 +168,7 @@ const products = [
 		category: 'electronics',
 		image: 'https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg',
 		rating: {
-			rate: 2.9,
+			rate: 3.0,
 			count: 250,
 		},
 	},
@@ -182,7 +182,7 @@ const products = [
 		category: 'electronics',
 		image: 'https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg',
 		rating: {
-			rate: 2.2,
+			rate: 2.0,
 			count: 140,
 		},
 	},
@@ -195,7 +195,7 @@ const products = [
 		category: "women's clothing",
 		image: 'https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg',
 		rating: {
-			rate: 2.6,
+			rate: 2.5,
 			count: 235,
 		},
 	},
@@ -209,7 +209,7 @@ const products = [
 		category: "women's clothing",
 		image: 'https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg',
 		rating: {
-			rate: 2.9,
+			rate: 3.0,
 			count: 340,
 		},
 	},
@@ -222,7 +222,7 @@ const products = [
 		category: "women's clothing",
 		image: 'https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg',
 		rating: {
-			rate: 3.8,
+			rate: 4.0,
 			count: 679,
 		},
 	},
@@ -235,7 +235,7 @@ const products = [
 		category: "women's clothing",
 		image: 'https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg',
 		rating: {
-			rate: 4.7,
+			rate: 4.5,
 			count: 130,
 		},
 	},
@@ -261,7 +261,7 @@ const products = [
 		category: "women's clothing",
 		image: 'https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg',
 		rating: {
-			rate: 3.6,
+			rate: 3.5,
 			count: 145,
 		},
 	},
