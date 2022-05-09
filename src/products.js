@@ -10,6 +10,7 @@ const products = [
 		rating: {
 			rate: 4.0,
 			count: 120,
+			stock: 0,
 		},
 	},
 	{
@@ -24,6 +25,7 @@ const products = [
 		rating: {
 			rate: 4.0,
 			count: 259,
+			stock: 12,
 		},
 	},
 	{
@@ -37,6 +39,7 @@ const products = [
 		rating: {
 			rate: 5.0,
 			count: 500,
+			stock: 3,
 		},
 	},
 	{
@@ -50,6 +53,7 @@ const products = [
 		rating: {
 			rate: 2.0,
 			count: 430,
+			stock: 14,
 		},
 	},
 	{
@@ -64,6 +68,7 @@ const products = [
 		rating: {
 			rate: 4.5,
 			count: 400,
+			stock: 6,
 		},
 	},
 	{
@@ -77,6 +82,7 @@ const products = [
 		rating: {
 			rate: 4.0,
 			count: 70,
+			stock: 3,
 		},
 	},
 	{
@@ -90,6 +96,7 @@ const products = [
 		rating: {
 			rate: 3.0,
 			count: 400,
+			stock: 30,
 		},
 	},
 	{
@@ -103,6 +110,7 @@ const products = [
 		rating: {
 			rate: 2.0,
 			count: 100,
+			stock: 15,
 		},
 	},
 	{
@@ -116,6 +124,7 @@ const products = [
 		rating: {
 			rate: 3.5,
 			count: 203,
+			stock: 15,
 		},
 	},
 	{
@@ -129,6 +138,7 @@ const products = [
 		rating: {
 			rate: 3.0,
 			count: 470,
+			stock: 10,
 		},
 	},
 	{
@@ -143,6 +153,7 @@ const products = [
 		rating: {
 			rate: 5.0,
 			count: 319,
+			stock: 20,
 		},
 	},
 	{
@@ -157,6 +168,7 @@ const products = [
 		rating: {
 			rate: 5.0,
 			count: 400,
+			stock: 15,
 		},
 	},
 	{
@@ -170,6 +182,7 @@ const products = [
 		rating: {
 			rate: 3.0,
 			count: 250,
+			stock: 3,
 		},
 	},
 	{
@@ -184,6 +197,7 @@ const products = [
 		rating: {
 			rate: 2.0,
 			count: 140,
+			stock: 1,
 		},
 	},
 	{
@@ -197,6 +211,7 @@ const products = [
 		rating: {
 			rate: 2.5,
 			count: 235,
+			stock: 12,
 		},
 	},
 	{
@@ -211,6 +226,7 @@ const products = [
 		rating: {
 			rate: 3.0,
 			count: 340,
+			stock: 4,
 		},
 	},
 	{
@@ -224,6 +240,7 @@ const products = [
 		rating: {
 			rate: 4.0,
 			count: 679,
+			stock: 15,
 		},
 	},
 	{
@@ -237,6 +254,7 @@ const products = [
 		rating: {
 			rate: 4.5,
 			count: 130,
+			stock: 15,
 		},
 	},
 	{
@@ -250,6 +268,7 @@ const products = [
 		rating: {
 			rate: 4.5,
 			count: 146,
+			stock: 13,
 		},
 	},
 	{
@@ -263,6 +282,7 @@ const products = [
 		rating: {
 			rate: 3.5,
 			count: 145,
+			stock: 2,
 		},
 	},
 ];
