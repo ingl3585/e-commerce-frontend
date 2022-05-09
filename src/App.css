@@ -8,11 +8,6 @@ main {
   min-height: 80vh;
 }
 
-.card-img {
-  height: 250px;
-  width: 225px;
-}
-
 .rating span {
   margin: 0.1rem;
 }
