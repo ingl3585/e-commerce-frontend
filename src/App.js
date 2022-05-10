@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Homepage from './pages/Homepage';
 import ProductPage from './pages/ProductPage';
+import CartPage from './pages/CartPage';
 import './bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 
@@ -16,6 +17,7 @@ const App = () => {
 					<Routes>
 						<Route exact path='/' element={<Homepage />} />
 						<Route path='/product/:id' element={<ProductPage />} />
+						<Route path='/cart/:id?' element={<CartPage />} />
 					</Routes>
 				</Container>
 			</main>
