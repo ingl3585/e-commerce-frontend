@@ -11,6 +11,7 @@ import ProfilePage from './pages/ProfilePage';
 import ShippingPage from './pages/ShippingPage';
 import PaymentPage from './pages/PaymentPage';
 import PlaceOrderPage from './pages/PlaceOrderPage';
+import OrderPage from './pages/OrderPage';
 import './bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 
@@ -28,6 +29,7 @@ const App = () => {
 						<Route exact path='/shipping' element={<ShippingPage />} />
 						<Route exact path='/payment' element={<PaymentPage />} />
 						<Route exact path='/placeorder' element={<PlaceOrderPage />} />
+						<Route exact path='/order/:id' element={<OrderPage />} />
 						<Route path='/product/:id' element={<ProductPage />} />
 						<Route path='/cart/:id?' element={<CartPage />} />
 					</Routes>
