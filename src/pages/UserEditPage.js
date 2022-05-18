@@ -8,7 +8,7 @@ import { getUserDetails, updateUser } from '../actions/userActions';
 import FormContainer from '../components/FormContainer';
 import { USER_UPDATE_RESET } from '../constants/userConstants';
 
-const UserEditPage = ({ location, history }) => {
+const UserEditPage = ({ history }) => {
 	const { id } = useParams();
 	const userId = Number(id);
 	const [name, setName] = useState('');

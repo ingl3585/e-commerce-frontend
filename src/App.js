@@ -14,6 +14,9 @@ import PlaceOrderPage from './pages/PlaceOrderPage';
 import OrderPage from './pages/OrderPage';
 import UserListPage from './pages/UserListPage';
 import UserEditPage from './pages/UserEditPage';
+import ProductListPage from './pages/ProductListPage';
+import ProductEditPage from './pages/ProductEditPage';
+import OrderListPage from './pages/OrderListPage';
 import './bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 
@@ -25,17 +28,23 @@ const App = () => {
 				<Container>
 					<Routes>
 						<Route exact path='/' element={<Homepage />} />
-						<Route exact path='/login' element={<LoginPage />} />
-						<Route exact path='/register' element={<RegisterPage />} />
-						<Route exact path='/profile' element={<ProfilePage />} />
-						<Route exact path='/shipping' element={<ShippingPage />} />
-						<Route exact path='/payment' element={<PaymentPage />} />
-						<Route exact path='/placeorder' element={<PlaceOrderPage />} />
-						<Route exact path='/order/:id' element={<OrderPage />} />
+						<Route path='/login' element={<LoginPage />} />
+						<Route path='/register' element={<RegisterPage />} />
+						<Route path='/profile' element={<ProfilePage />} />
+						<Route path='/shipping' element={<ShippingPage />} />
+						<Route path='/payment' element={<PaymentPage />} />
+						<Route path='/placeorder' element={<PlaceOrderPage />} />
+						<Route path='/order/:id' element={<OrderPage />} />
 						<Route path='/product/:id' element={<ProductPage />} />
 						<Route path='/cart/:id?' element={<CartPage />} />
 						<Route path='/admin/userlist' element={<UserListPage />} />
 						<Route path='/admin/user/:id/edit' element={<UserEditPage />} />
+						<Route path='/admin/productlist' element={<ProductListPage />} />
+						<Route path='/admin/orderlist' element={<OrderListPage />} />
+						<Route
+							path='/admin/product/:id/edit'
+							element={<ProductEditPage />}
+						/>
 					</Routes>
 				</Container>
 			</main>

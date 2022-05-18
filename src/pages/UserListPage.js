@@ -56,19 +56,19 @@ const UserListPage = ({ history }) => {
 									) : (
 										<i className='fas fa-check' style={{ color: 'red' }}></i>
 									)}
-									<td>
-										<LinkContainer to={`/admin/user/${user.id}/edit`}>
-											<Button variant='light' className='btn-sm'>
-												<i className='fas fa-edit'></i>
-											</Button>
-											<Button
-												variant='danger'
-												className='btn-sm'
-												onClick={() => deleteHandler(user.id)}>
-												<i className='fas fa-trash'></i>
-											</Button>
-										</LinkContainer>
-									</td>
+								</td>
+								<td>
+									<LinkContainer to={`/admin/user/${user.id}/edit`}>
+										<Button variant='light' className='btn-sm'>
+											<i className='fas fa-edit'></i>
+										</Button>
+										<Button
+											variant='danger'
+											className='btn-sm'
+											onClick={() => deleteHandler(user.id)}>
+											<i className='fas fa-trash'></i>
+										</Button>
+									</LinkContainer>
 								</td>
 							</tr>
 						))}
